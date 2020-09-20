@@ -106,13 +106,60 @@ position: relative;
 
 .carousel-control-next{
 	top:55%;
-	left: 110%;
+	left: 70%;
 
 }
+.carousel-item>img{
+	z-index: 2;
+}
+.carousel-item.active{
+	display: flex;
+}
 
-.carousel-caption{
-	top:10%;
-	right: -100%;
+.carousel-caption-c{
+	position: relative;
+	z-index: 2;
+} 
+.carousel-caption-c:before{
+	position: absolute;
+	content:" ";
+	top: -30%;
+	left: -40%;
+	background-color: rgba(18,18,18,.5);	
+	height: 130%;
+	width: 130%;
+	z-index: -1;
+		
+}
+
+.carousel-caption-c p{
+	content: red;
+}
+
+.carousel-control-next{
+	z-index: 3;
+}
+
+.carousel-h2{
+	/* Style for "Lorem ipsu" */
+
+color: #4a4c4c;
+font-family: "Gobold CYR - LAT";
+font-size: 25px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "ipsum" */
+color: #82878a;
+}
+
+.carousel-p{
+margin-top: 37px;
+color: #82878a;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+
 }
 .content1-2{
 	flex-direction: column;
@@ -120,7 +167,7 @@ position: relative;
 }
 .content2{
 	display: flex;
-	min-height: 600px;
+	
 }
 .description{
 	margin-top: 35px;
