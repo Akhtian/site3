@@ -68,6 +68,26 @@ table {
 	background-color:#0c0c0c !important; 
 } 
 
+.navbar-collapse{
+	background-color: #9e171d !important;
+}
+
+.content11{
+	background-color: #9e171d;
+}
+
+
+
+
+.nav-link{
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 300;
+line-height: 24px;
+text-transform: uppercase;
+}
+
 .description-p{
 	margin-top: 35px;
 max-width: 267px;
@@ -129,9 +149,7 @@ position: relative;
 	height: 130%;
 	width: 130%;
 	z-index: -1;
-		
 }
-
 .carousel-caption-c p{
 	content: red;
 }
@@ -141,14 +159,11 @@ position: relative;
 }
 
 .carousel-h2{
-	/* Style for "Lorem ipsu" */
-
 color: #4a4c4c;
 font-family: "Gobold CYR - LAT";
 font-size: 25px;
 font-weight: 400;
 text-transform: uppercase;
-/* Text style for "ipsum" */
 color: #82878a;
 }
 
@@ -264,4 +279,45 @@ min-height: 392px;
 	border: .5px solid white; 
 	background-color: white;
 
+}
+
+
+.content3{
+	background-color: white;
+	margin-top: 79px;
+}
+.content3-1{
+	margin-top: 79px;
+}
+.content3-h2{
+color: #9e171d;
+font-family: "Gobold CYR - LAT";
+font-size: 40px;
+font-weight: 400;
+text-transform: uppercase;
+position: relative;
+}
+
+.content3-h2:after{
+	content: "";
+	position: absolute;
+	top:130%;
+	left:1.2%;
+	height: 1px;
+	width: 50px;
+	border: 0.5px solid #9e171d;
+	background-color: #9e171d;
+}
+
+.content3-h2>span{
+	color:#0e0e0e;;
+}
+
+.content3-p{
+margin-top: 20px;
+color: #82878a;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 300;
+line-height: 24px;
 }
