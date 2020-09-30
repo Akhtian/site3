@@ -1,0 +1,22 @@
+.bg-burger_button {
+    width: 40px; height: 16px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-fb {
+    width: 29px; height: 30px;
+    background: url('css_sprites.png') -10px -46px;
+}
+
+x
+.bg-g+ {
+    width: 29px; height: 30px;
+    background: url('css_sprites.png') -10px -96px;
+}
+
+x
+.bg-tw {
+    width: 29px; height: 30px;
+    background: url('css_sprites.png') -10px -146px;
+}
