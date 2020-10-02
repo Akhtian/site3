@@ -885,6 +885,17 @@ color: #9e171d;
 
 }
 
+@media (max-width: 1200px){
+.details-area{
+	width: 220px !important;
+}
+}
+
+@media (min-width: 1201px){
+.details-area{
+	width: 555px !important;
+}
+}
 .form-control{
 	border-radius:  0 !important;
 }
